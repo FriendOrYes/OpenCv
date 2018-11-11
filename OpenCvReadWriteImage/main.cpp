@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    Mat image = imread("/home/anton/Documents/ProjectsCPlusPlus/NeuralNetwork/OpenCv/OpenCvMatInit/lena.jpg");
+    Mat image = imread("/src/OpenCvMatInit/lena.jpg");
     cout << "Hello World!" << endl;
 
     // Check for invalid input
